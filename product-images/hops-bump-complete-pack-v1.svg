@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 180" width="240" height="360">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121A27"/><stop offset="1" stop-color="#05080E"/></linearGradient>
+<radialGradient id="gl" cx="50%" cy="38%" r="60%"><stop offset="0" stop-color="#FF4FA3" stop-opacity=".28"/><stop offset="1" stop-color="#FF4FA3" stop-opacity="0"/></radialGradient>
+<linearGradient id="sh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".10"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<style>text{font-family:'Geist Mono',ui-monospace,Menlo,monospace} .lb{font-size:7px;letter-spacing:.9px;fill:#E8ECF1;font-weight:600} .sb{font-size:5.2px;letter-spacing:.6px;fill:#8E97A4}</style>
+<rect x=".5" y=".5" width="119" height="179" rx="12" fill="url(#bg)" stroke="#FF4FA3" stroke-opacity=".45"/>
+<rect x=".5" y=".5" width="119" height="179" rx="12" fill="url(#gl)"/>
+<g transform="translate(60 70)">
+<g transform="translate(-30 -40) rotate(-8)"><rect width="40" height="56" rx="7" fill="#170B13" stroke="#FF4FA3" stroke-opacity=".6"/><circle cx="20" cy="24" r="11" fill="none" stroke="#FF4FA3" stroke-width="2" stroke-dasharray="20 50"/><text x="20" y="48" text-anchor="middle" font-size="4.4" fill="#F4E3EC" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">LOOP</text></g>
+<g transform="translate(-10 -46) rotate(6)"><rect width="40" height="56" rx="7" fill="#170B13" stroke="#FF4FA3" stroke-opacity=".6"/><rect x="8" y="12" width="20" height="7" rx="3.5" fill="#2A1222"/><rect x="12" y="22" width="20" height="7" rx="3.5" fill="#FF4FA3"/><text x="20" y="48" text-anchor="middle" font-size="4.4" fill="#F4E3EC" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">DMS</text></g>
+<g transform="translate(-20 -18)"><animateTransform attributeName="transform" type="translate" values="-20 -18;-20 -22;-20 -18" dur="3s" repeatCount="indefinite"/><rect width="40" height="56" rx="7" fill="#24121F" stroke="#FF4FA3"/><polyline points="7,38 15,32 22,34 33,20" fill="none" stroke="#FF4FA3" stroke-width="2" stroke-linecap="round"/><text x="20" y="48" text-anchor="middle" font-size="4.4" fill="#F4E3EC" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">ADS</text></g>
+</g>
+<g transform="translate(36 116)"><rect width="48" height="16" rx="8" fill="#FF4FA3"/><text x="24" y="10.6" text-anchor="middle" font-size="6" font-weight="700" fill="#fff" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">ALL 3</text></g>
+<rect x="1" y="1" width="118" height="70" rx="11" fill="url(#sh)"/>
+<text x="60" y="160" text-anchor="middle" class="lb">COMPLETE PACK</text>
+<text x="60" y="170" text-anchor="middle" class="sb">ALL 3 ADD-ONS</text>
+</svg>
