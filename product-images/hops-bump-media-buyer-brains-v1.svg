@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 180" width="240" height="360">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121A27"/><stop offset="1" stop-color="#05080E"/></linearGradient>
+<radialGradient id="gl" cx="50%" cy="38%" r="60%"><stop offset="0" stop-color="#01ADEB" stop-opacity=".28"/><stop offset="1" stop-color="#01ADEB" stop-opacity="0"/></radialGradient>
+<linearGradient id="sh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".10"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<style>text{font-family:'Geist Mono',ui-monospace,Menlo,monospace} .lb{font-size:7px;letter-spacing:.9px;fill:#E8ECF1;font-weight:600} .sb{font-size:5.2px;letter-spacing:.6px;fill:#8E97A4}</style>
+<rect x=".5" y=".5" width="119" height="179" rx="12" fill="url(#bg)" stroke="#A4ED07" stroke-opacity=".45"/>
+<rect x=".5" y=".5" width="119" height="179" rx="12" fill="url(#gl)"/>
+<g transform="translate(14 18)"><rect width="92" height="104" rx="9" fill="#0B0F17" stroke="#26303D"/>
+<text x="8" y="12" font-size="5" fill="#8E97A4" letter-spacing=".6" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">ADS · LAST 24H</text>
+<g transform="translate(8 20)">
+<text y="6" font-size="5" fill="#C5CCD6" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">Ad A</text><rect x="22" y="1" width="40" height="6" rx="3" fill="#E2732E" opacity=".9"><animate attributeName="width" values="40;10;10;40" keyTimes="0;.35;.85;1" dur="5s" repeatCount="indefinite"/></rect><text x="66" y="6" font-size="4.6" fill="#E2732E" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">CUT</text>
+<text y="20" font-size="5" fill="#C5CCD6" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">Ad B</text><rect x="22" y="15" width="20" height="6" rx="3" fill="#A4ED07"><animate attributeName="width" values="20;44;44;20" keyTimes="0;.35;.85;1" dur="5s" repeatCount="indefinite"/></rect><text x="66" y="20" font-size="4.6" fill="#A4ED07" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">SCALE</text>
+<text y="34" font-size="5" fill="#C5CCD6" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">Ad C</text><rect x="22" y="29" width="26" height="6" rx="3" fill="#01ADEB"/><text x="66" y="34" font-size="4.6" fill="#01ADEB" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">TEST</text></g>
+<polyline points="8,92 22,86 34,88 48,76 62,72 76,62 84,58" fill="none" stroke="#A4ED07" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="110" stroke-dashoffset="110"><animate attributeName="stroke-dashoffset" values="110;0;0" keyTimes="0;.5;1" dur="5s" repeatCount="indefinite"/></polyline>
+<text x="8" y="68" font-size="4.8" fill="#8E97A4" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">ROAS ↑</text></g>
+<g transform="translate(18 126)"><rect width="84" height="14" rx="7" fill="#0E131D" stroke="#26303D"/><text x="42" y="9.2" text-anchor="middle" font-size="5.2" fill="#C5CCD6" style="font-family:'Geist Mono',ui-monospace,Menlo,monospace">☀ 7:00 AM report sent</text></g>
+<rect x="1" y="1" width="118" height="70" rx="11" fill="url(#sh)"/>
+<text x="60" y="160" text-anchor="middle" class="lb">MEDIA BUYER</text>
+<text x="60" y="170" text-anchor="middle" class="sb">RULES + MORNING REPORT</text>
+</svg>
